@@ -1,0 +1,72 @@
+.shipment-table-container {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+ .shipment-table-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.filter-container {
+    margin-bottom: 15px;
+}
+
+.filter-container label {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.filter-container select {
+    padding: 5px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e6f7ff; /* Light blue hover */
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+/* Status Badge Styles */
+.status-badge {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    color: white;
+    white-space: nowrap;
+}
+
+.status-pending { background-color: #ffc107; color: #333;} /* Amber */
+.status-in-transit { background-color: #17a2b8; } /* Info Blue */
+.status-delivered { background-color: #28a745; } /* Success Green */
+.status-delayed { background-color: #dc3545; } /* Danger Red */
+.status-cancelled { background-color: #6c757d; } /* Secondary Gray */
+
+/* Add more specific styles as needed */
